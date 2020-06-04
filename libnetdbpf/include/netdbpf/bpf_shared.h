@@ -85,6 +85,7 @@ enum UidOwnerMatchType {
     STANDBY_MATCH = (1 << 3),
     POWERSAVE_MATCH = (1 << 4),
     IIF_MATCH = (1 << 5),
+    ISOLATED_MATCH = (1 << 7),
 };
 
 enum BpfPemissionMatch {
